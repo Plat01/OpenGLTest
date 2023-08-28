@@ -1,0 +1,67 @@
+"C:\apps\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/apps/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Programming\cpp\SolarSystem -B C:\Programming\cpp\SolarSystem\cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at glfw/CMakeLists.txt:8 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- Using WGL for context creation
+-- Configuring done (0.1s)
+CMake Error at glew/build/cmake/CMakeLists.txt:135 (add_library):
+  Cannot find source file:
+
+    C:/Programming/cpp/SolarSystem/glew/include/GL/wglew.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:211 (add_executable):
+  Cannot find source file:
+
+    C:/Programming/cpp/SolarSystem/glew/src/glewinfo.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:225 (add_executable):
+  Cannot find source file:
+
+    C:/Programming/cpp/SolarSystem/glew/build/visualinfo.rc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:135 (add_library):
+  No SOURCES given to target: glew
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:139 (add_library):
+  No SOURCES given to target: glew_s
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:211 (add_executable):
+  No SOURCES given to target: glewinfo
+
+
+CMake Error at glew/build/cmake/CMakeLists.txt:225 (add_executable):
+  No SOURCES given to target: visualinfo
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
