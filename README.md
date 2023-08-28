@@ -1,4 +1,4 @@
-# cpp-opengl-simple-project
+# Test openGL
 
 Usage:
 
@@ -8,8 +8,9 @@ Usage:
     mkdir build
     cd build
     cmake ..
-    make red_triangle
-    ./red_triangle
+    make solar_system
+    ./solar_system
+    
 ```
 
-Tested on Windows, Linux, MacOS and FreeBSD.
+Tested on Windows and  Linux.
